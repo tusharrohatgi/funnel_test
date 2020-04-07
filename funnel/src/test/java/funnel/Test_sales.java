@@ -51,7 +51,7 @@ public class Test_sales {
 	    
 		String browser = p.getProperty("browser");
 		if (browser.toUpperCase().equals("chrome".toUpperCase())) {
-		System.setProperty("webdriver.chrome.driver", "/Users/nishantmakkar/Downloads/chromedriver"); //SetChromeDriver Location
+		System.setProperty("webdriver.chrome.driver", "~/chromedriver"); //SetChromeDriver Location
 		//Open, Maximize ChromeDriver and got to a specific URL.
 		driver = new ChromeDriver();
 		}
