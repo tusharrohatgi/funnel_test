@@ -1,5 +1,7 @@
 # funnel test
 
+Purpose - Performing test on Sales funnel Site.
+
 Pre-Requisites : https://hello.friday.de must be Up and running.
 
 Tools/Technologies  Used 
