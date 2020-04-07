@@ -37,7 +37,7 @@ public class Test_sales {
 		FileReader reader;
 		Properties p=new Properties();  
 		try {
-			reader = new FileReader("/Users/nishantmakkar/eclipse-workspace/funnel/src/test/java/funnel/test.prop");
+			reader = new FileReader("./test.prop");
 			
 		    p.load(reader);  
 		} catch (FileNotFoundException e) {
